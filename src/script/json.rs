@@ -89,6 +89,5 @@ pub enum Command {
 
 #[derive(Deserialize, Debug)]
 pub struct Spec {
-    pub source_filename: String,
     pub commands: Vec<Command>,
 }

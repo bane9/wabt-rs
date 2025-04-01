@@ -15,4 +15,4 @@ cmake = "0.1.32"
 cc = "1.0.4"
 
 [target.'cfg(windows)'.build-dependencies]
-glob = "0.2.11"
+glob = "0.3.2"
